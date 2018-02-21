@@ -1,0 +1,29 @@
+.nav-container{
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.04);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  background-image: url('../../assets/nav-background.PNG');
+  z-index: 2;
+}
+
+.logo-container{
+  padding-bottom: 10px;
+}
+
+img{
+  width: 250px;
+}
+
+a{
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.1);
+  background: rgb(241, 245, 249);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.active-link {
+	background-color: rgb(224, 224, 224);
+}
