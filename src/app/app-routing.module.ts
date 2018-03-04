@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent},
   { path: 'equipment', component: EquipmentComponent},
   { path: 'contact', component: ContactComponent},
+  { path: '',   redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent}
 ];
 
